@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>Photo Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+<center>
+    <h1>Photo Web App</h1> 
+    <hr>
+    <h4>As soon as the popup appears, please click allow. Then you can speak a command.</h4>
+    <h3>Say "selfie" for taking your selfies to take a picture.</h3>
+    <button onclick="save()" class="btn btn-info">Start</button>
+    <h4>Press the button to start.</h4>
+    <label>The photos will be displayed here &#x21b4;</label>
+    
+    <div id="resultShow">
+        <div id="result1">
+            <img src="Wallpaper1.jpg" style=" width: 25%;">
+        </div>
+        <br> <br>
+        <div id="result2">
+            <img src="Wallpaper2.jpg" style=" width: 25%;">
+        </div>
+        <br> <br>
+        <div id="result3">
+            <img src="Wallpaper3.jpg" style=" height: 45%;">
+        </div>
+        <br> <br>
+    </div>
+</center>
+
+<div class="copy_right_footer">
+    Developed by - Erica
+</div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
